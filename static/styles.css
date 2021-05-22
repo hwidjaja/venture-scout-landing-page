@@ -1,0 +1,77 @@
+body {
+    background-color:#f3f3f3;
+}
+
+#main {
+  margin-top:100px;
+}
+
+/* Splash screen */
+#splash {
+  background-color: #4F45CF; /* #7083ad */
+  color: #ffffff;
+  height: 100vh;
+  text-align: center;
+  margin-bottom: 72px;
+}
+
+span.splash-spotlight {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+}
+
+h1.splash-spotlight {
+  font-size:72px;
+}
+
+.imgbox {
+  display: grid;
+  height: 100%;
+}
+
+.center-fit {
+  max-width: 100%;
+  max-height: 100vh;
+  margin: auto;
+}
+
+/* Rest of app */
+
+.text-align-middle {
+  text-align: center;
+  vertical-align:middle;
+}
+
+.header-frame {
+  height: 200px;
+}
+
+#app {
+    background-color:#f3f3f3;
+    overflow:auto; /* https://stackoverflow.com/questions/13573653/css-margin-terror-margin-adds-space-outside-parent-element */
+}
+
+#partner-logos {
+  color:#000000;
+}
+
+.card-img-top{
+  width:100%;
+  height:auto;
+}
+
+.fit-image{
+  width: 100%;
+  object-fit: cover;
+  height: 150px; /* only if you want fixed height */
+}
+
+
+h1.value-prop-main {
+  font-size:56px;
+}
+
+.value-prop-aux {
+  color:#a7a7a7;
+}
