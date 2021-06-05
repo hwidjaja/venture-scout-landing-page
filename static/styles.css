@@ -28,7 +28,6 @@ h1.splash-spotlight {
 .imgbox {
   height: 100vh;
   position: relative;
-  width: 80vw;
   margin: auto;
 
   background-image: url('splash-design-concept.png');
