@@ -2,8 +2,19 @@ body {
     background-color:#f3f3f3;
 }
 
-#main {
-  margin-top:100px;
+.flex-container {
+  /* background-color:rgb(255, 168, 127); */
+  display: flex;
+  flex-wrap: wrap;
+  /* height:100px; */
+}
+
+.stakeholder-icon {
+  margin: 10px;
+  padding: 10px;
+  height: 80px;
+  background-color:#cacaca;
+  width: auto;
 }
 
 /* Splash screen */
@@ -13,12 +24,6 @@ body {
   height: 100vh;
   text-align: center;
   margin-bottom: 72px;
-}
-
-span.splash-spotlight {
-  display: inline-block;
-  text-align: center;
-  vertical-align: middle;
 }
 
 h1.splash-spotlight {
@@ -37,11 +42,6 @@ h1.splash-spotlight {
 
 }
 
-.splash-image {
-  max-height: 100vh;
-  margin: auto;
-}
-
 .splash-button {
   max-height: 20vh;
   position: absolute;
@@ -52,15 +52,33 @@ h1.splash-spotlight {
   right:0;
 }
 
-
-.top > * {
-  vertical-align: top;
-}
-
-
 .bottom > * {
   vertical-align: bottom;
 }
+
+/* Footer */
+#footer {
+  background-color: #4F45CF; /* nerif blue: #0059EA purple: #4F45CF;  #7083ad */
+  color: #ffffff;
+  height: 50vh;
+  text-align: center;
+}
+
+.footer-contents-position {
+  display:block;
+
+  /* horizontal align (auto, auto for middle align) */
+  margin-left:auto;
+  margin-right:auto;
+
+  /* vertical align */
+  position:relative;
+  top:50%;
+
+  /* width of element */
+  width:75%;
+}
+
 
 /* Rest of app */
 
@@ -87,13 +105,6 @@ h1.splash-spotlight {
   height:auto;
 }
 
-.fit-image{
-  width: 100%;
-  object-fit: cover;
-  height: 150px; /* only if you want fixed height */
-}
-
-
 h1.value-prop-main {
   font-size:48px;
 }
@@ -109,4 +120,27 @@ h1.value-prop-main {
   display: flex;
   align-items: center; /* Vertical center alignment */
   justify-content: center; /* Horizontal center alignment */
+}
+
+a:link {
+  color: white;
+  text-decoration:underline;
+}
+
+/* visited link */
+a:visited {
+  color: white;
+  text-decoration:underline;
+}
+
+/* mouse over link */
+a:hover {
+  color: #a09be9;
+  text-decoration:underline;
+}
+
+/* selected link */
+a:active {
+  color: #a09be9;
+  text-decoration:underline;
 }
