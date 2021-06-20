@@ -20,11 +20,11 @@ body {
 .stakeholder-icon {
   margin: 10px;
   padding: 10px;
-  height: 80px;
-  /* background-color:#cacaca; */
-  width: auto;
+  max-height:80px;
+  max-width:100%;
   filter: grayscale(100%);
 }
+
 
 /* Splash screen */
 #splash {
