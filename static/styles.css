@@ -6,6 +6,14 @@ body {
   /* background-color:rgb(255, 168, 127); */
   display: flex;
   flex-wrap: wrap;
+  justify-content: center; /* if elements wrap, center the elements on page */
+  /* height:100px; */
+}
+
+.footer-flex-container {
+  /* background-color:rgb(255, 168, 127); */
+  display: flex;
+  flex-wrap: wrap;
   /* height:100px; */
 }
 
@@ -13,8 +21,9 @@ body {
   margin: 10px;
   padding: 10px;
   height: 80px;
-  background-color:#cacaca;
+  /* background-color:#cacaca; */
   width: auto;
+  filter: grayscale(100%);
 }
 
 /* Splash screen */
@@ -73,7 +82,7 @@ h1.splash-spotlight {
 
   /* vertical align */
   position:relative;
-  top:50%;
+  top:40%;
 
   /* width of element */
   width:75%;
